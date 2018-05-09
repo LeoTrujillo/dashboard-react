@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import Navbar from './components/navbar/Navbar';
+import Grid from './components/grid/Grid';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Navbar />
+      <div>
+        <Navbar />
+        <Grid />
+      </div>
     );
   }
 }

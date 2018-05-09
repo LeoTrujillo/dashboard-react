@@ -1,0 +1,15 @@
+.grid{
+  background: gray;
+  min-height: 90vh;
+}
+
+.btn-add {
+  background: lightseagreen;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  padding: 15px;
+  margin: 20px;
+  cursor: pointer;
+}
