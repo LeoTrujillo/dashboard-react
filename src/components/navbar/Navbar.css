@@ -1,0 +1,26 @@
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ededed;
+}
+
+.item-menu {
+  padding: 15px 20px;
+}
+
+a:hover,
+.btn:hover {
+  background: lightseagreen;
+  color: #fff;
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  color: lightseagreen;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:focus {outline: 0;}
