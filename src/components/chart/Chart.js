@@ -10,6 +10,7 @@ class Chart extends Component {
   render() {
     return (
       <div className="item-chart">
+        <img src="https://picsum.photos/100/100/?random" alt="new" />
         {this.state.data.name}
         <p>{this.state.data.content}</p>
       </div>
