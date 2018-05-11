@@ -40,9 +40,10 @@ class Grid extends Component {
   }
 
   addComponent() {
-    console.log('Agregamos un componente');
-    this.setState(prevState => ({ comps: [...comps, {id:4, name:'New', description: 'new element'}]}))
-    // this.setState(prevState => ({newComponent: !prevState.newComponent}))
+    const id = Math.random();
+    let c = this.state.comps;
+    c = [...c , {id: id, name:'New', description: 'new element'}];
+    this.setState(prevState => ({ comps: c }));
   }
 
   render() {
